@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<!-- add title -->
+	<title>Microdata - 1st try</title>
+</head>
+
+<body>
+	<div itemscope itemtype="http://schema.org/Event">
+		<div itemprop="name">[event title goes here]</div>
+		<time itemprop="startDate" datetime="YYYY-MM-DDTHH:MM">[date & start-time goes here]</time>
+		<time itemprop="endDate" datetime="YYYY-MM-DDTHH:MM">[end time goes here]</time>
+		<span>Fee: <span itemprop="offers"><span itemprop="price">[fee goes here]</span></span></span>
+		<span>register-by</span>
+		<span>Presenter: Laurita Moscatelli, educator</span>
+		<span itemprop="description">[event description goes here]</span>
+	</div>
+</body>
+
+</html>
